@@ -19,8 +19,6 @@ function Banner({ netflixOriginals }: Props) {
     )
   }, [netflixOriginals])
 
-  console.log(movie)
-
   return (
     <div className="lg:pd-12 flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-end">
       <div className="absolute top-0 left-0 -z-10 h-[95vh] w-screen">
